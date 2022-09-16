@@ -1,0 +1,36 @@
+.advantage {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .specifics__list {
+    display: flex;
+    column-gap: 30px;
+  }
+  .specifics__card {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  
+  .specifics__icon-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: var(--background-color);
+    margin-bottom: 30px;
+  }
+  
+  .specifics__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    margin-bottom: 10px;
+  }
+  .specifics__desc {
+    font-style: normal;
+    line-height: 1.7;
+    color: var(--primary-text-color);
+  }
