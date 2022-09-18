@@ -12,9 +12,7 @@
   }
   
   .specifics__icon-bg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %centeredFlex ;
     height: 120px;
     background-color: var(--background-color);
     margin-bottom: 30px;
